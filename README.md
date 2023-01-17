@@ -36,20 +36,22 @@ list.append() insert to  list , append() takes exactly one argument
 number = 1 + 2 * 3 / 4.0
 dividend % divisor = remainder
 Using two multiplication symbols makes a power relationship. 7 ** 2=49  
-####Using Operators with Strings
+#### Using Operators with Strings
 Python supports concatenating strings using the addition operator
 Python also supports multiplying strings to form a string with a repeating sequence
-####Using Operators with Lists
+#### Using Operators with Lists
 Lists can be joined with the addition operators   
 lists with a repeating sequence using the multiplication operator [1,2,3] * 3
 
 ### String Formatting
 The "%" operator is used to format a set of variables enclosed in a "tuple"together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d"
 To use two or more argument specifiers, use a tuple (parentheses)
-    print("%s is %s years old." % (name, age))
-        some basic argument specifiers you should know:
-        %s - String (or any object with a string representation, like numbers)
-        %d - Integers
-        %f - Floating point numbers
-        %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
-        %x/%X - Integers in hex representation (lowercase/uppercase)
+...
+print("%s is %s years old." % (name, age))
+...
+>        some basic argument specifiers you should know:
+>        %s - String (or any object with a string representation, like numbers)
+>        %d - Integers
+>        %f - Floating point numbers
+>        %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+>        %x/%X - Integers in hex representation (lowercase/uppercase)
