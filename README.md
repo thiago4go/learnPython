@@ -46,14 +46,19 @@ lists with a repeating sequence using the multiplication operator [1,2,3] * 3
 ### String Formatting
 The "%" operator is used to format a set of variables enclosed in a "tuple"together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d"
 To use two or more argument specifiers, use a tuple (parentheses)
-``` python
+``` py
 name = "thiago4go"
 age = 33
 print("%s is %s years old." % (name, age))
 ```
 - some basic argument specifiers you should know:
+
 -1        %s - String (or any object with a string representation, like numbers). 
+
 -2        %d - Integers. 
+
 -3        %f - Floating point numbers. 
+
 -4        %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot. 
+
 -5        %x/%X - Integers in hex representation (lowercase/uppercase). 
