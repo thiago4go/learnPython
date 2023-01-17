@@ -4,35 +4,35 @@ https://learnpython.org/
 Python 3 as a starting point for Coding 
 
 
-##Indentation
+## Indentation
 Python uses indentation for blocks, the standard indentation requires standard Python code to use four spaces.
 
-##Variables and Types
+## Variables and Types
 Python is completely object oriented, Every variable in Python is an object.
 
-###Variables
+### Variables
 No need to declare type for variables, and assignaments can be done on more than one 
 variable "simultaneously" on the same line.
 
-###Numbers
+### Numbers
 1 int
 1.0 float
 
-###String
+### String
 "" double quotes makes it easy to include apostrophes
 ''
 
 Mixing operators between numbers and strings is not supported.
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
-###Lists
+### Lists
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. Index is zero-based
 
 list = []
 list.append() insert to  list , append() takes exactly one argument
 
-###Basic Operators
-####Arithmetic Operators with numbers
+### Basic Operators
+#### Arithmetic Operators with numbers
 number = 1 + 2 * 3 / 4.0
 dividend % divisor = remainder
 Using two multiplication symbols makes a power relationship. 7 ** 2=49  
@@ -43,7 +43,7 @@ Python also supports multiplying strings to form a string with a repeating seque
 Lists can be joined with the addition operators   
 lists with a repeating sequence using the multiplication operator [1,2,3] * 3
 
-###String Formatting
+### String Formatting
 The "%" operator is used to format a set of variables enclosed in a "tuple"together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d"
 To use two or more argument specifiers, use a tuple (parentheses)
     print("%s is %s years old." % (name, age))
