@@ -51,7 +51,7 @@ name = "thiago4go"
 age = 33
 print("%s is %s years old." % (name, age))
 ```
--some basic argument specifiers you should know:
+- some basic argument specifiers you should know:
 -1        %s - String (or any object with a string representation, like numbers). 
 -2        %d - Integers. 
 -3        %f - Floating point numbers. 
