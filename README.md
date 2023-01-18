@@ -62,3 +62,26 @@ print("%s is %s years old." % (name, age))
      %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot. 
 
      %x/%X - Integers in hex representation (lowercase/uppercase). 
+
+### Basic String Operations
+```
+astring = "Hello World"
+# Length 
+len(astring)
+# First occurrence of "W" at index
+astring.index("W")
+# Number of o's
+astring.count("o")
+# Slicing the string into bits
+astring[3:7]
+astring[3:7:2]
+astring[::-1]
+# Convert everything to UPPERCASE/lowercase
+astring.upper()
+pastring.lower()
+# Check how a string starts/ends
+astring.startswith("Hello")
+astring.endswith("asdfasdfasdf")
+# Split the string into separate strings
+astring.split(" ") #inside the quotes set the spliter
+```
