@@ -18,3 +18,36 @@ print(astring.startswith("Hello"))
 print(astring.endswith("asdfasdfasdf"))
 # Split the string into separate strings
 print(astring.split(" ")) #inside the quotes set the spliter
+
+# While loop
+count=0
+while(count<5):
+    print(count)
+    count +=1
+else:
+    print("count value reached %d" %(count))
+
+#Function
+def sum_two_numbers(a, b):
+    return a + b
+x = sum_two_numbers(2,3)
+print(x)
+
+#classes
+class NameClass:
+    variable = "any"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+NewObjectX = NameClass()
+NewObjectY = NameClass()
+NewObjectZ = NameClass()
+
+NewObjectY.variable = "thing"
+NewObjectZ.variable = "you want"
+
+print(NewObjectX.variable)
+print(NewObjectY.variable)
+print(NewObjectZ.variable)
+NewObjectZ.function()
