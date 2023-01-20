@@ -56,5 +56,4 @@ def hangman():
     else:
         print("Great!! you guessed it correctly, it is", word, "!!")            
 
-if __name__ == '__main__':
-    hangman()
+hangman()
