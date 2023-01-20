@@ -51,3 +51,11 @@ print(NewObjectX.variable)
 print(NewObjectY.variable)
 print(NewObjectZ.variable)
 NewObjectZ.function()
+
+
+phonebook = {"John" : 938477566,"Jack" : 938377264,"Jill" : 947662781}
+phonebook["Jane"] = 98127890 #add to dictionary["key"] = value
+del phonebook["John"] #delete key and value
+phonebook.pop("Jack") #delete key and value
+for name, phone in phonebook.items():
+    print("Phone number of %s is %d" % (name, phone))
